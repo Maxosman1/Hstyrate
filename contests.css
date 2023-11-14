@@ -1,0 +1,157 @@
+:root {
+  --heading-offset: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 90%; /* Increased width */
+  height: 90%; /* Increased height */
+  overflow-y: scroll;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.styrate-heading {
+  color: #464040;
+  font-size: 1.5rem; /* Increased font size for desktop */
+  margin-left: var(--heading-offset);
+}
+
+.top-options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  height: 10%;
+}
+
+.top-options .top-icons {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.top-icons {
+  gap: 12px; /* Increased gap */
+}
+
+.top-icons object {
+  width: 30px; /* Increased icon size */
+  height: 30px; /* Increased icon size */
+}
+
+.main-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.page-title {
+  margin: 0;
+  margin-left: var(--heading-offset);
+  font-weight: 600;
+  font-size: 1.2rem; /* Increased font size for desktop */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25rem; /* Increased card width */
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 15px 25px 15px 25px; /* Adjusted padding */
+}
+
+.card-content {
+  width: 100%;
+  text-align: center;
+}
+
+.card object {
+  width: 50%; /* Increased size */
+  height: 50%; /* Increased size */
+}
+
+.section-title {
+  margin-left: var(--heading-offset);
+  font-size: 1.2rem; /* Increased font size for desktop */
+}
+
+.contest-content {
+  padding: 0 5px 0 5px;
+}
+
+.card-row {
+  display: flex;
+  overflow-x: scroll;
+  padding: 15px; /* Increased padding */
+  gap: 25px; /* Increased gap between cards */
+}
+
+.footer-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.page-footer {
+  display: flex;
+  position: fixed;
+  bottom: 0; /* Adjusted for better positioning */
+  z-index: 1000;
+  width: 80%; /* Adjusted width */
+  height: 4rem; /* Increased height */
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  gap: 10px; /* Increased gap */
+  justify-content: space-evenly;
+}
+
+.page-footer .leaderboard-rank {
+  margin: 0;
+  font-size: 1rem; /* Increased font size */
+}
+
+.page-footer object {
+  width: 25px; /* Increased size */
+  height: 25px; /* Increased size */
+}
+
+.footer-profile {
+  width: 30px; /* Increased size */
+  height: 30px; /* Increased size */
+  border-radius: 50%;
+}
+
+.platinum-content {
+  padding-bottom: 75px;
+}

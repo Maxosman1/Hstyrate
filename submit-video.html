@@ -1,0 +1,38 @@
+<section id="video-submission">
+  <h2>Submit Your Video</h2>
+  <form id="video-submit-form">
+    <div class="form-group">
+      <label for="contest-category">Contest Category:</label>
+      <select id="contest-category" name="contest-category" required>
+        <option value="">Select a category</option>
+        <option value="opinions">Opinions</option>
+        <option value="tech">Tech and Gadgets</option>
+        <option value="cooking">Cooking and Baking</option>
+        <option value="diy">DIY Projects</option>
+        <option value="fashion">Fashion and Style</option>
+        <option value="music">Music and Dance</option>
+        <option value="art">Art and Illustration</option>
+        <option value="photography">Photography</option>
+        <option value="books">Books and Media</option>
+        <option value="science">Science and Innovation</option>
+        <option value="travel">Travel</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="video-url">Video URL:</label>
+      <input
+        type="url"
+        id="video-url"
+        name="video-url"
+        required
+        placeholder="Enter the link to your video"
+      />
+    </div>
+    <button type="button" id="preview-button">Preview Submission</button>
+    <button type="submit">Post Submission</button>
+  </form>
+  <section id="video-preview">
+    <h3>Video Preview</h3>
+    <div id="preview-container"></div>
+  </section>
+</section>

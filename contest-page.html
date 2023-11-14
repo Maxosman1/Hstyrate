@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contest Details | STYRATE</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="contests.html">Contests</a>
+        <a href="rewards.html">Rewards</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <div id="contest-timer" class="countdown-timer">
+        <!-- Countdown Timer will be dynamically inserted here -->
+      </div>
+
+      <section id="contest-details">
+        <h2 id="contest-title">Contest Details</h2>
+        <p id="contest-description">
+          <!-- Contest description will be dynamically loaded here -->
+          <a href="submit-video.html" class="submit-video-link">Submit Video</a>
+        </p>
+      </section>
+
+      <section id="top-videos" class="top-videos-section">
+        <h3>Top Videos</h3>
+        <div id="gold" class="top-video">
+          <h4>Gold Video</h4>
+          <!-- Gold video content will be dynamically loaded here -->
+        </div>
+        <div id="silver" class="top-video">
+          <h4>Silver Video</h4>
+          <!-- Silver video content will be dynamically loaded here -->
+        </div>
+        <div id="bronze" class="top-video">
+          <h4>Bronze Video</h4>
+          <!-- Bronze video content will be dynamically loaded here -->
+        </div>
+      </section>
+
+      <section id="contest-submissions" class="submission-section">
+        <h3>Submissions</h3>
+        <div id="videos-list" class="videos-list">
+          <!-- Video submissions will be dynamically loaded here -->
+        </div>
+        <div id="pagination" class="pagination">
+          <!-- Pagination links will be dynamically generated here -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Footer content like contact info, social links, etc. -->
+    </footer>
+
+    <script src="contest-page-handler.js"></script>
+  </body>
+</html>
